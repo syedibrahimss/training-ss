@@ -4857,6 +4857,11 @@ FROM " ._DB_PREFIX_. "employee
 
     }
 
+    public function getName($name)
+    {
+        return $this->name;
+    }
+
 
 
 }

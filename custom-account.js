@@ -8,7 +8,17 @@
 
 
 
+function accountValidation_forgit(){
+	var acount_type = document.getElementById("acount_type").value;
+	var fname = document.getElementsByName("firstname")[0].value;
+	var regName = /^[a-zA-Z ]+$/;
+	if(fname == ''){
+	  accerrors = 1;
+      accvaldstrng = accvaldstrng + 'Firstname' +'<br>';
+	  document.getElementsByName("firstname")[0].style.border="solid 1px red";
+	}
 
+}
 
 function accountValidation_r(){
 
